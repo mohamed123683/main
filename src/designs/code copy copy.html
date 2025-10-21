@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dr. Ahmed Al Amir Clinic - Booking</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f87ff",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1923",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm z-10">
+<div class="container mx-auto px-4">
+<div class="flex items-center justify-between py-4 border-b border-primary/20 dark:border-primary/30">
+<h2 class="text-xl font-bold text-gray-800 dark:text-white">Dr. Ahmed Al Amir</h2>
+<button class="text-gray-800 dark:text-white">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow container mx-auto px-4 py-8">
+<h1 class="text-2xl font-bold text-gray-800 dark:text-white mb-6">Book an Appointment</h1>
+<div class="bg-white dark:bg-gray-800/20 rounded-xl shadow-sm p-4 mb-8">
+<div class="flex items-center justify-between mb-4">
+<button class="text-gray-600 dark:text-gray-300 hover:text-primary">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+</svg>
+</button>
+<p class="text-lg font-semibold text-gray-800 dark:text-white">July 2024</p>
+<button class="text-gray-600 dark:text-gray-300 hover:text-primary">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+</svg>
+</button>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center text-sm">
+<div class="font-medium text-gray-500 dark:text-gray-400">S</div>
+<div class="font-medium text-gray-500 dark:text-gray-400">M</div>
+<div class="font-medium text-gray-500 dark:text-gray-400">T</div>
+<div class="font-medium text-gray-500 dark:text-gray-400">W</div>
+<div class="font-medium text-gray-500 dark:text-gray-400">T</div>
+<div class="font-medium text-gray-500 dark:text-gray-400">F</div>
+<div class="font-medium text-gray-500 dark:text-gray-400">S</div>
+<div class="col-start-4 text-gray-800 dark:text-gray-200 py-2">1</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">2</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">3</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">4</div>
+<div class="py-2"><button class="w-8 h-8 rounded-full bg-primary text-white">5</button></div>
+<div class="text-gray-800 dark:text-gray-200 py-2">6</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">7</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">8</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">9</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">10</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">11</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">12</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">13</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">14</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">15</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">16</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">17</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">18</div>
+<div class="py-2"><button class="w-8 h-8 rounded-full bg-primary/20 dark:bg-primary/30 text-primary dark:text-white">19</button></div>
+<div class="text-gray-800 dark:text-gray-200 py-2">20</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">21</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">22</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">23</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">24</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">25</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">26</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">27</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">28</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">29</div>
+<div class="text-gray-800 dark:text-gray-200 py-2">30</div>
+</div>
+</div>
+<h2 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Available Slots for July 5, 2024</h2>
+<div class="flex flex-wrap gap-3 mb-8">
+<button class="px-4 py-2 rounded bg-primary/20 dark:bg-primary/30 text-primary dark:text-white font-medium">9:00 AM</button>
+<button class="px-4 py-2 rounded bg-primary/20 dark:bg-primary/30 text-primary dark:text-white font-medium">10:00 AM</button>
+<button class="px-4 py-2 rounded bg-primary text-white font-medium">11:00 AM</button>
+<button class="px-4 py-2 rounded bg-primary/20 dark:bg-primary/30 text-primary dark:text-white font-medium">1:00 PM</button>
+</div>
+<div class="space-y-4">
+<input class="w-full bg-white dark:bg-gray-800/20 border-0 rounded-lg p-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary" placeholder="Full Name" type="text"/>
+<input class="w-full bg-white dark:bg-gray-800/20 border-0 rounded-lg p-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary" placeholder="Phone Number" type="tel"/>
+<input class="w-full bg-white dark:bg-gray-800/20 border-0 rounded-lg p-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary" placeholder="Child's Age" type="number"/>
+<textarea class="w-full bg-white dark:bg-gray-800/20 border-0 rounded-lg p-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-primary" placeholder="Optional Notes" rows="4"></textarea>
+<button class="w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-primary/90 transition-colors">Confirm Booking</button>
+</div>
+</main>
+<footer class="sticky bottom-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="container mx-auto px-4">
+<div class="flex justify-around py-2 border-t border-primary/20 dark:border-primary/30">
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"></path></svg>
+<span class="text-xs">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm16-40a8,8,0,0,1-8,8,16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40A8,8,0,0,1,144,176ZM112,84a12,12,0,1,1,12,12A12,12,0,0,1,112,84Z"></path></svg>
+<span class="text-xs">About</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary dark:text-white" href="#">
+<div class="bg-primary/20 dark:bg-primary/30 rounded-full p-2">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V88H208V208ZM48,72V48H72v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V72Z"></path></svg>
+</div>
+<span class="text-xs font-bold">Booking</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM184,96a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,96Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,128Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,160Z"></path></svg>
+<span class="text-xs">Articles</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"></path></svg>
+<span class="text-xs">Contact</span>
+</a>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

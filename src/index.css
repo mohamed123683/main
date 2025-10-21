@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200;
+    min-height: 100dvh;
+  }
+
+  * {
+    @apply scroll-smooth;
+  }
+}
